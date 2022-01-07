@@ -15,7 +15,7 @@ public class CustomerDTO {
 	@Pattern(regexp = ".*[0-9]+.*", message = "{invalid.password.format.number}")
 	@Pattern(regexp = ".*[^a-zA-Z-0-9].*", message = "{invalid.password.format.specialcharacter}")
 	private String password;
-    private String phoneNo;
+
 
     private String errorMessage;
 
@@ -41,17 +41,7 @@ public class CustomerDTO {
 
     public void setErrorMessage(String errorMessage) {
         this.errorMessage = errorMessage;
-    }
-
-    public String getPhoneNo() {
-        return phoneNo;
-    }
-
-    public void setPhoneNo(String phoneNo) {
-        this.phoneNo = phoneNo;
-    }
-
-    
+    }   
 
 
 }

@@ -16,8 +16,6 @@ public class Customer {
     @Column(name="PASSWORD")
     private String password;
 
-    @Column(name="PHONE_NUMBER")
-    private String phoneNumber;
 
     public String getEmailId() {
         return emailId;
@@ -33,16 +31,6 @@ public class Customer {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    
+    }   
     
 }
