@@ -1,0 +1,33 @@
+2022-Jan.-09 15:58:32 p.m. [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-Jan.-09 15:58:32 p.m. [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-Jan.-09 15:58:32 p.m. [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-Jan.-09 15:58:43 p.m. [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-Jan.-09 15:58:43 p.m. [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-Jan.-09 15:58:43 p.m. [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-Jan.-09 15:58:45 p.m. [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-Jan.-09 15:58:45 p.m. [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 3333 (http)
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/EKart_Server] - Initializing Spring embedded WebApplicationContext
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3866 ms
+2022-Jan.-09 15:58:47 p.m. [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-Jan.-09 15:58:48 p.m. [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-Jan.-09 15:58:48 p.m. [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-Jan.-09 15:58:48 p.m. [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-Jan.-09 15:58:48 p.m. [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-Jan.-09 15:58:49 p.m. [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-Jan.-09 15:58:50 p.m. [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-Jan.-09 15:58:50 p.m. [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-Jan.-09 15:58:50 p.m. [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-Jan.-09 15:58:51 p.m. [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-Jan.-09 15:58:51 p.m. [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+2022-Jan.-09 15:58:51 p.m. [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3333 (http) with context path '/EKart_Server'
+2022-Jan.-09 15:59:08 p.m. [http-nio-3333-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/EKart_Server] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-Jan.-09 15:59:08 p.m. [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-Jan.-09 15:59:08 p.m. [http-nio-3333-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-Jan.-09 15:59:08 p.m. [http-nio-3333-exec-1] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [com.java.app2.exception.EkartException: CustomerService.EMAIL_ID_ALREADY_IN_USE]
+2022-Jan.-09 16:04:52 p.m. [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-Jan.-09 16:04:52 p.m. [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-Jan.-09 16:04:52 p.m. [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

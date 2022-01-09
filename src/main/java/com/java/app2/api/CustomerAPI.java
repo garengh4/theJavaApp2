@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin //avoid blocked by CORS policy
 @RestController
-@RequestMapping(value="customer-api") //connects to frontend. Check environment.ts in frontend
+@RequestMapping(value = "/customer-api") //connects to frontend. Check environment.ts in frontend
 @Validated
 public class CustomerAPI {
 
@@ -33,7 +33,7 @@ public class CustomerAPI {
 
     static Log logger = LogFactory.getLog(CustomerAPI.class);
 
-    @PostMapping(value="/login")
+    @PostMapping(value = "/login")
     public ResponseEntity<CustomerDTO> authenticateCustomer(@Valid @RequestBody CustomerDTO customerDTO) throws EkartException {
         logger.info("CUSTOMER TRYING TO LOGIN, VALIDATING CREDENTIALS. CUSTOMER EMAIL ID: " + customerDTO.getEmailId());
         CustomerDTO customerDTOFromDB = customerService.authenticateCustomer(customerDTO.getEmailId(), customerDTO.getPassword());
@@ -42,7 +42,7 @@ public class CustomerAPI {
         return new ResponseEntity<>(customerDTOFromDB, HttpStatus.OK);
     }
 
-    @PostMapping(value="/customers")
+	@PostMapping(value = "/customers")
     public ResponseEntity<String> registerCustomer(@Valid @RequestBody CustomerDTO customerDTO) throws EkartException {
         logger.info("CUSTOMER TRYING TO REGISTER. CUSTOMER EMAIL ID: " + customerDTO.getEmailId());
         String registeredWithEmailId = customerService.registerNewCustomer(customerDTO);
